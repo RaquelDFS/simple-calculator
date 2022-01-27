@@ -1,9 +1,15 @@
-.btn{
-    height: 80px;
-    width: 80px;
-}
 
-svg{
-    height: 20px;
-    width: 20px;
+            svg{
+                height: 20px;
+                width: 20px;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: rgb(127, 219, 255);
 }
