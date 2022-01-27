@@ -21,12 +21,13 @@ body{
 
 .calculator{
     background-color: rgb(20, 20, 20);
-    width: fit-content;
+    width: 244px;
     padding: 8px;
     border-radius: 10px;
     height: max-content;
 
 }
+
 table td{
     display: inline-block;
 
@@ -66,12 +67,18 @@ svg{
     border: none;
     color: seashell;
 }
+.btn:focus{
+    border: none;
+    outline-style: none;
+}
 .result{
-    text-align: right;
     height: 100px;
+    line-height: 40px;
+    text-align: right;
     color: seashell;
     font-size: 35px;
     word-wrap: break-word;
+   overflow: hidden;
     border-bottom: 1px solid teal;
-    padding-right: 10px;
+    padding: 14px;
 }
